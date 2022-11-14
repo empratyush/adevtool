@@ -11,3 +11,32 @@ filters:
       # external/android-nn-driver/Android.mk: error: "android.hardware.neuralnetworks@1.0-service-armnn (EXECUTABLES android-arm64) missing libOpenCL (SHARED_LIBRARIES android-arm64)"
       - vendor/lib/libOpenCL.so
       - vendor/lib64/libOpenCL.so
+
+      - vendor/bin/hw/android.hardware.biometrics.face-service.22.pixel
+      - vendor/firmware/faceauth_p22.app
+      - vendor/etc/vintf/manifest/android.hardware.biometrics.face-service.22.pixel.xml
+      - vendor/etc/init/android.hardware.biometrics.face-service.22.pixel.rc
+      - vendor/etc/faceauth_pipeline_input_pixel_22
+      - vendor/etc/init/init.faceauth.rc
+      - vendor/lib64/libface_common_thread.so
+      - vendor/lib64/libface_tuscany_cache_proto.so
+      - vendor/lib64/libface_tuscany_trusty_debug_host.so
+      - vendor/lib64/libface_common_log.so
+      - vendor/lib64/libface_common_user.so
+      - vendor/lib64/libface_common_util.so
+      - vendor/lib64/libface_common_perf.so
+      - vendor/lib64/libface_common_fake_camera.so
+      - vendor/lib64/libface_common_task.so
+      - vendor/lib64/libface_common_user_proto.so
+      - vendor/lib64/libface_common_capture.so
+      - vendor/lib64/libface_tuscany_sensor_trusty.so
+      - vendor/lib64/libface_tuscany_cache_manager.so
+      - vendor/lib64/libface_common_camera.so
+      - vendor/lib64/libface_common_debug.so
+      - vendor/lib64/com.google.face.debug-V1-ndk.so
+      - vendor/lib64/libface_hal_trusty_tuscany.so
+      - vendor/lib64/libface_common_frame.so
+      - vendor/lib64/libface_tuscany_proxy_util_trusty.so
+      - vendor/lib64/libface_common_trustzone.so
+      - system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk
+      - product/overlay/TrafficLightFaceOverlay.apk
