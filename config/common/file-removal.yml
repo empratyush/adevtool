@@ -48,9 +48,6 @@ filters:
       # Irrelevant OTA updater
       - system_ext/etc/init/init.sota.rc
       - system_ext/etc/permissions/com.google.android.factoryota.xml
-      # Unused Google RIL
-      - system_ext/etc/permissions/google-ril.xml
-      - system_ext/framework/google-ril.jar
       # Unused RadioConfigLib.jar
       - system_ext/etc/permissions/com.android.omadm.radioconfig.xml
       - system_ext/framework/RadioConfigLib.jar
@@ -239,7 +236,6 @@ filters:
       - system_ext/priv-app/UvExposureReporter
       - system_ext/priv-app/WallpaperPickerGoogleRelease
       - system_ext/priv-app/YadaYada
-      - system_ext/priv-app/grilservice
       - system_ext/priv-app/obdm_stub
       # Fonts
       - product/fonts
